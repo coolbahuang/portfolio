@@ -1,0 +1,70 @@
+.container{
+	width:100%;
+	}
+.col-md-offset-2{
+	width:1000px;
+	margin:auto;
+	}
+.nav-tabs>li{float: right;}
+
+.tab{
+	margin:70px 0px 0px;
+	background-image:url(../images/work_title.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	}
+
+a{outline: none;text-decoration: none;}
+a:hover,a:focus{text-decoration: none;}
+
+.tab .nav-tabs{
+    border:none;
+}
+.ill{background-image:url(../images/illustration1.png)}
+.gra{background-image:url(../images/graphic1.png)}
+.web{background-image:url(../images/web1.png)}
+.ill, .gra, .web, li.active.ill, li.active.gra, li.active.web{
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	}
+li.active.ill{
+	background-image:url(../images/illustration2.png);
+	}
+li.active.gra{
+	background-image:url(../images/graphic2.png);
+	}
+li.active.web{
+	background-image:url(../images/web2.png);
+	}
+
+.nav-tabs .web a{ width:60px; margin-left:50px; height:50px;}
+.nav-tabs .gra a{ width:103px; margin-left:50px; height:50px;}
+.nav-tabs .ill a{ width:137px; margin-left:50px; height:50px;}
+
+.nav-tabs li a i{
+    display: inline-block;
+    text-align: center;
+    margin-right:10px;
+}
+
+.tab .tab-content{
+	width: 850px;
+    margin: 50px auto 0;
+}
+.tab .tab-content h3{
+    margin-top: 0;
+}
+@media only screen and (max-width: 999px){
+	.col-md-offset-2{
+		width:96%;
+		}
+}
+@media only screen and (max-width: 930px){
+    .nav-tabs li{width:100%;background-position:center;}
+	.nav-tabs li.active{background-position:center;}
+	.nav-tabs .gra a, .nav-tabs .ill a, .nav-tabs .web a{ width:100% ; margin:0;}
+	.tab{padding-top: 55px; margin-top: 40px; background-position: top center;}
+}
+@media only screen and (max-width: 480px){
+	.tab{ background-size:contain;}
+}

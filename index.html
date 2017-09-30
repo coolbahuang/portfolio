@@ -1,0 +1,664 @@
+<!doctype html>
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="images/favicon.ico" />
+<meta charset="UTF-8">
+<title>你好，我叫黃馨</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/bar.css"><!--bar-->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"><!--bar-->
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><!--tab-->
+<link rel="stylesheet" type="text/css" href="css/tab.css"><!--tab-->
+<link href="css/zzsc.css" rel="stylesheet" type="text/css" /><!--TOP-->
+<link href="css/phone.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><!--bar-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script><!--scroll-->
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script><!--tab-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--RWD map-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery.rwdImageMaps.js"></script>
+<script>
+    $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+    });
+</script>
+<!--RWD map-->
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>
+  <script type="text/jscript">
+$(document).ready(function() {
+	
+$('.popup-with-form').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+
+
+});
+
+$(document).ready(function() {
+	$('.popup-with-zoom-anim').magnificPopup({
+		type: 'inline',
+
+		fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
+		
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+
+	$('.popup-with-move-anim').magnificPopup({
+		type: 'inline',
+
+		fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
+		
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-slide-bottom'
+	});
+});
+</script><!--light-->
+<!-- Magnific Popup core JS file -->
+<script src="js/bootstrap.min.js" type="text/javascript"></script><!--tab-->
+<script type="text/javascript" src="js/scroll-scope.min.js"></script><!--scroll-->
+<!--scroll-->
+<script type="text/javascript">
+$(function(){
+	$(document).scrollScope();
+  $('.work_img').attr('data-scroll-scope','force');
+
+       return false;
+
+});   
+</script>
+<script type="text/javascript">
+$(function(){
+	$(document).scrollScope();
+  $('.app_img').attr('data-scroll-scope','force');
+
+       return false;
+
+});   
+</script>
+<!--scroll-->
+<!--TOP-->
+<script src="js/jquery.min.js"></script>
+<script src="js/zzsc.js"></script> 
+</head>
+
+<body>
+
+<div class="first">
+	<!--<img src="images/arrow.gif" class="arrow">-->
+    <img id="Image-Maps-Com-image-maps-2017-09-11-022437" class="index_bg" src="images/index_bg.png" border="0" width="1920" height="1080" orgWidth="1920" orgHeight="1080" usemap="#image-maps-2017-09-11-022437" alt="背景" />
+    
+<map name="image-maps-2017-09-11-022437" id="ImageMapsCom-image-maps-2017-09-11-022437">
+<!--<area shape="rect" coords="1918,1078,1920,1080" alt="Image Map" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />-->
+<area  alt="證照獎狀" title="" class="popup-with-zoom-anim" href="#small-dialog" shape="poly" coords="1670,80,1649,311,1818,327,1846,94" target="_self"     />
+<area  alt="學歷" title="" class="popup-with-zoom-anim" href="#small-dialog2" shape="poly" coords="1363,504,1333,611,1388,592,1410,610,1422,608,1435,603,1448,589,1461,572,1468,555,1471,543,1476,535,1446,497,1451,463" target="_self"     />
+<area  alt="專長興趣" title="" class="popup-with-zoom-anim" href="#small-dialog3" shape="poly" coords="1140,786,1133,803,1140,819,1142,834,1144,850,1153,874,1142,884,1142,974,1153,984,1172,991,1190,991,1207,987,1217,981,1222,889,1205,875,1224,817,1213,826,1198,866,1177,870,1176,824,1182,804,1173,797,1166,816,1163,867,1154,808" target="_self"     />
+<area  alt="專長興趣2" title="" class="popup-with-zoom-anim" href="#small-dialog3" shape="poly" coords="1248,840,1243,854,1257,869,1275,873,1294,876,1289,891,1293,907,1304,920,1317,925,1334,927,1352,922,1380,904,1445,904,1449,899,1448,835,1458,837,1463,853,1463,875,1475,888,1489,894,1504,903,1538,898,1548,893,1560,882,1560,865,1550,851,1516,828,1471,812,1431,807,1410,806,1397,799,1386,797,1361,799,1349,807,1331,807,1314,817,1297,830,1290,826,1275,831" target="_self"     />
+<area  alt="電腦專長" title="" class="popup-with-zoom-anim" href="#small-dialog4" shape="poly" coords="515,696,516,679,532,671,546,674,754,692,773,698,781,715,791,733,794,763,805,789,922,808,930,818,926,831,832,886,829,886,820,893,804,900,582,869,568,865,555,856,551,834" target="_self"     />
+<area  alt="你好，我叫黃馨" title="" class="popup-with-zoom-anim" href="#small-dialog5" shape="poly" coords="695,121,680,160,674,176,684,177,691,223,703,209,704,202,715,223,747,224,752,202,769,215,784,215,795,226,813,213,833,216,845,222,873,221,877,215,899,212,916,212,927,224,944,209,961,208,988,220,999,222,1007,217,1028,211,1041,222,1057,222,1075,209,1088,212,1106,213,1116,209,1130,205,1154,199,1155,222,1170,220,1184,219,1201,226,1215,220,1235,216,1250,212,1267,218,1283,225,1299,216,1318,217,1372,221,1405,221,1403,209,1414,197,1412,193,1410,181,1407,122,1308,120,1189,121,1112,122,962,121,962,187,894,186,887,120" target="_self"     />
+</map>
+
+<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+	<div class="lb_title">獎狀證照</div>
+    <div class="lb_con">
+	<div id="css_table">
+      <div class="css_tr">
+          <div class="css_td"><span class="bold">2017</span></div>
+          <div class="css_td2">金點新秀入圍獎</div>
+      </div>
+      <div class="css_tr">
+          <div class="css_td"><span class="bold">2017</span></div>
+          <div class="css_td2">明志科技大學 視覺傳達設計系 壹零陸級畢業展 第三名</div>
+      </div>
+      <div class="css_tr">
+          <div class="css_td"><span class="bold">2017</span></div>
+          <div class="css_td2">TQC Illustrator CS6 電腦繪圖設計</div>
+      </div>
+      <div class="css_tr">
+          <div class="css_td"><span class="bold">2016</span></div>
+          <div class="css_td2">TQC InDesign CS6 編排設計</div>
+      </div>
+	</div><!--css_table-->
+	</div><!--con-->
+</div><!--證照獎狀_燈箱內容-->
+<div id="small-dialog2" class="zoom-anim-dialog mfp-hide">
+	<div class="lb_title">學歷</div>
+    <div class="lb_con">
+    <div id="css_table">
+      <div class="css_tr">
+          <div class="css_td"><span class="bold">2013</span></div>
+          <div class="css_td2">臺北市立松山家商 廣告設計科</div>
+      </div>
+      <div class="css_tr">
+          <div class="css_td"><span class="bold">2017</span></div>
+          <div class="css_td2">明志科技大學 視覺傳達設計系</div>
+      </div>
+	</div><!--css_table-->
+    </div><!--con-->
+</div><!--學歷_燈箱內容-->
+<div id="small-dialog3" class="zoom-anim-dialog mfp-hide">
+	<div class="lb_title">專長興趣</div>
+    <div class="lb_con">
+    	插畫、平面設計、網頁設計、攝影、影像修圖、影片剪輯、立體雕塑
+    </div><!--con-->
+</div><!--專長興趣_燈箱內容-->
+<div id="small-dialog4" class="zoom-anim-dialog mfp-hide">
+	<div class="lb_title">電腦專長</div>
+    	<div class="lb_con">
+           <div id="css_table">
+      			<div class="css_tr">
+          			<div class="css_td adobe_icon"><img src="images/dw.png"></div>
+          			<div class="css_td adobe_icon"><img src="images/ps.png"></div>
+                  <div class="css_td adobe_icon"><img src="images/ai.png"></div>
+                  <div class="css_td adobe_icon"><img src="images/id.png"></div>
+                  <div class="css_td adobe_icon"><img src="images/pr.png"></div>
+      			</div>
+			</div><!--css_table-->
+    	</div><!--con-->
+</div><!--電腦專長_燈箱內容-->
+<div id="small-dialog5" class="zoom-anim-dialog mfp-hide">
+	<div class="lb_title">你好，我叫黃馨</div>
+    <div class="lb_con">
+    	喜歡平面設計、影像創作，期許未來創造出自己的風格。樂於挑戰商業設計，在商業需求以及美感之間，找到平衡，並賦予創意。<br>
+        曾在網頁公司擔任網頁設計師一年，負責視覺設計、切版。也在索德國際擔任過平面設計師，負責商品eDM、活動Banner以及產品包裝設計。
+    </div><!--con-->
+</div><!--基本資料_燈箱內容-->
+
+</div><!--first-->
+
+<div class="sec">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8">
+				<div class="tab" role="tabpanel">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active ill">
+                        <a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">
+                        		<i class="fa fa-user"></i>
+                        </a>
+                      </li>
+						<li role="presentation" class="gra">
+                        <a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">
+                        		<i class="fa fa-envelope"></i>
+                        </a>
+                     	</li>
+						<li role="presentation" class="web">
+                        <a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">
+                        		<i class="fa fa-cube"></i>
+                        </a>
+                      </li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content tabs">
+						<div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                      	<div class="work box1 popup-with-zoom-anim" href="#small-dialog6"><img src="images/ill_pic-01.jpg"></div><!--work-->
+                        	<div class="work box2 popup-with-zoom-anim" href="#small-dialog7"><img src="images/ill_pic-02.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog8"><img src="images/ill_pic-03.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog9"><img src="images/ill_pic-04.jpg"></div><!--work-->
+                        	<div class="work box2 popup-with-zoom-anim" href="#small-dialog10"><img src="images/ill_pic-05.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog11"><img src="images/ill_pic-06.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog12"><img src="images/ill_pic-07.jpg"></div><!--work-->
+                        	<div class="work box2 popup-with-zoom-anim" href="#small-dialog13"><img src="images/ill_pic-08.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog14"><img src="images/ill_pic-09.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog15"><img src="images/ill_pic-10.jpg"></div><!--work-->
+                      <div id="clear"></div><!--clear-->
+						</div><!--Section1_illustration-->
+                        
+						<div role="tabpanel" class="tab-pane fade" id="Section2">
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog16"><img src="images/gra_pic-01.jpg"></div><!--work-->
+                        	<div class="work box2 popup-with-zoom-anim" href="#small-dialog17"><img src="images/gra_pic-02.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog18"><img src="images/gra_pic-03.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog19"><img src="images/gra_pic-04.jpg"></div><!--work-->
+                        	<div class="work box2 popup-with-zoom-anim" href="#small-dialog20"><img src="images/gra_pic-05.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog21"><img src="images/gra_pic-06.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog22"><img src="images/gra_pic-07.jpg"></div><!--work-->
+                        	<div class="work box2 popup-with-zoom-anim" href="#small-dialog23"><img src="images/gra_pic-08.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog24"><img src="images/gra_pic-09.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog25"><img src="images/gra_pic-10.jpg"></div><!--work-->
+                         <div class="work box2 popup-with-zoom-anim" href="#small-dialog26"><img src="images/gra_pic-11.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog27"><img src="images/gra_pic-12.jpg"></div><!--work-->
+						</div><!--Section2_Graphic-->
+                        
+						<div role="tabpanel" class="tab-pane fade" id="Section3">
+							<div class="work box1 popup-with-zoom-anim" href="#small-dialog28"><img src="images/web_pic-01.jpg"></div><!--work-->
+                         <div class="work box2 popup-with-zoom-anim" href="#small-dialog29"><img src="images/web_pic-02.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog30"><img src="images/web_pic-03.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog31"><img src="images/web_pic-04.jpg"></div><!--work-->
+                         <div class="work box2 popup-with-zoom-anim" href="#small-dialog32"><img src="images/web_pic-05.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog33"><img src="images/web_pic-06.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog34"><img src="images/web_pic-07.jpg"></div><!--work-->
+                         <div class="work box2 popup-with-zoom-anim" href="#small-dialog35"><img src="images/web_pic-08.jpg"></div><!--work-->
+                         <div class="work box3 popup-with-zoom-anim" href="#small-dialog36"><img src="images/web_pic-09.jpg"></div><!--work-->
+                         <div class="work box1 popup-with-zoom-anim" href="#small-dialog37"><img src="images/web_pic-10.jpg"></div><!--work-->
+						</div><!--Web-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div><!--sec-->
+
+<div class="footer">
+	<div class="contact">
+    <span class="hi">你好，我叫黃馨</span><br>
+	MAIL : <a href="mailto:h19950607@gmail.com">h19950607@gmail.com</a>
+    <br>
+	TEL : <a href="tel:0903111362">0903-111-362</a>
+    </div><!--contact-->
+</div><!--footer-->
+
+<!-- TOP -->
+<a href="#0" class="cd-top">Top</a>
+<!-- TOP -->
+
+
+<!----------------------------work_lightbox_start------------------------------>
+<div id="small-dialog6" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/PizzaFairy.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">披薩仙女</div><!--name-->
+        <div class="work_text">麥克筆<br><br><span class="work_text2">把夢中的印象，拼拼湊湊的重新畫出來</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--披薩仙女-->
+<div id="small-dialog7" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/Guilty.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">罪惡</div><!--name-->
+        <div class="work_text">麥克筆<br><br><span class="work_text2">直到現在，看到鴨跟火雞，還是會想起小時候在鄉下玩了多過分的遊戲</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--罪惡-->
+<div id="small-dialog8" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/Dugong.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">儒艮</div><!--name-->
+        <div class="work_text">麥克筆<br><br><span class="work_text2">發生在海裡的故事</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--儒艮-->
+<div id="small-dialog9" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/Moth.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">對蛾恐懼</div><!--name-->
+        <div class="work_text">麥克筆<br><br><span class="work_text2">每次看到蛾的時候，心裡的恐懼面積</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--蛾-->
+<div id="small-dialog10" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/FinUSA.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">科學怪人在美國</div><!--name-->
+        <div class="work_text">麥克筆、電腦繪圖<br><br><span class="work_text2">以科學怪人為主角，到世界各地人尋找自己四肢，並且依當地文化改變畫風</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--科學怪人在美國-->
+<div id="small-dialog11" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/FinChina.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">科學怪人在中國</div><!--name-->
+        <div class="work_text">水彩、墨<br><br><span class="work_text2">以科學怪人為主角，到世界各地人尋找自己四肢，並且依當地文化改變畫風</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--科學怪人在中國-->
+<div id="small-dialog12" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/Kappa.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">河童</div><!--name-->
+        <div class="work_text">電腦繪圖<br><br><span class="work_text2">心中理想的河童，有點憨厚</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--河童-->
+<div id="small-dialog13" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/Samurai.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">洗澡武士</div><!--name-->
+        <div class="work_text">電腦繪圖<br><br><span class="work_text2">出現在澡堂，負責管理衛生的武士</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--洗澡武士-->
+<div id="small-dialog14" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/Taichi.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">打太極</div><!--name-->
+        <div class="work_text">鉛筆<br><br><span class="work_text2">打太極的惡鬼</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--打太極-->
+<div id="small-dialog15" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope><img src="images/ill/dance.jpg"></div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">歐吉桑舞獅團</div><!--name-->
+        <div class="work_text">代針筆<br><br><span class="work_text2">一起舞獅的三個歐吉桑兄弟</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--舞龍舞獅-->
+<div id="small-dialog16" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/ML_1.jpg">
+        <img src="images/gra/ML_2.jpg">
+        <img src="images/gra/ML_3.jpg">
+        <img src="images/gra/ML_4.jpg">
+        <img src="images/gra/ML_5.jpg">
+        <img src="images/gra/ML_6_01.jpg">
+        <img src="images/gra/ML_6_02.jpg">
+        <img src="images/gra/ML_6_03.jpg">
+        <img src="images/gra/ML_6_04.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">最低限度的邪惡</div><!--name-->
+        <div class="work_text">
+        印刷品<br>-<br>金點新秀入圍獎/明志科技大學 視覺傳達設計系 壹零陸級畢業展 第三名<br><br>
+        <span class="work_text2">
+        「台灣最美的風景是人」<br>我們想補充的是，這也是一個充滿荒謬、矛盾風景的地方。這裏有不少貪小便宜、自私自利的人，正義魔人群也以令人傻眼的速度飛快的成長著。拿掉只見美善的眼鏡，我們要赤裸地平衡報導</span>
+        </div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--最低限度的邪惡-->
+<div id="small-dialog17" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/CPB911_w_2.jpg"><div class="dis"></div>
+        <img src="images/gra/CPB911_w_1.jpg"><div class="dis"></div>
+        <img src="images/gra/CPB911_w_3.jpg"><div class="dis"></div>
+        <img src="images/gra/CPB911_w_4.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">行動電源商品情境照</div><!--name-->
+        <div class="work_text">攝影<br><br><span class="work_text2">把白色的行動電源鎖定年輕族群，所以把情境塑造出文青、乾淨的氛圍</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--行動電源商品照-->
+<div id="small-dialog18" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/kid.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">我家的美好日「長」</div><!--name-->
+        <div class="work_text">攝影、手繪<br><br><span class="work_text2">用小孩子寫日記的感覺，來描述家中使用產品後的改變</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--我家的美好日「長」-->
+<div id="small-dialog19" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<iframe width="100%"src="https://www.youtube.com/embed/A_XMuSWU2Y4" frameborder="0" allowfullscreen></iframe>
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">拉霸機互動貼文</div><!--name-->
+        <div class="work_text">動畫<br><br><span class="work_text2">在FB上以gif的形式發動態，並以點擊暫停來代表拉霸機的互動</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--拉霸機-->
+<div id="small-dialog20" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<iframe width="100%" src="https://www.youtube.com/embed/x14rNKznOXs" frameborder="0" allowfullscreen></iframe>
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">開學季 愛因斯坦開課囉</div><!--name-->
+        <div class="work_text">動畫<br><br><span class="work_text2">嘗試與以往開學季不一樣的廣告，以大家熟悉的科學家代表-愛因斯坦做為主角，折價活動內容寫成公式，並製作成動態，達到比以往靜態廣告更吸睛的效果</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--開學季_愛因斯坦開課囉-->
+<div id="small-dialog21" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<iframe width="100%" src="https://www.youtube.com/embed/k3Z4D581dKM" frameborder="0" allowfullscreen></iframe>
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">中秋節創意貼文</div><!--name-->
+        <div class="work_text">動畫<br><br><span class="work_text2">用經典的科幻電影「ET」知名的一幕來發展中秋節廣告，不只台灣客戶過中秋，也要讓國外客戶看過後感到趣味</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--中秋節-->
+<div id="small-dialog22" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/RE_eDM/RE_eDM-01.jpg">
+        <img src="images/gra/RE_eDM/RE_GIF.gif" alt="伸縮線動畫">
+        <img src="images/gra/RE_eDM/RE_eDM-02.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-03.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-04.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-05.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-06.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-07.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-08.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-09.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-10.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-11.jpg">
+        <img src="images/gra/RE_eDM/RE_eDM-12.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">產品廣告</div><!--name-->
+        <div class="work_text">eDM</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--Retractable Cable-->
+<div id="small-dialog23" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/270cm/270cm_eDM-01.jpg">
+        <img src="images/gra/270cm/270cm_eDM-02.jpg">
+        <img src="images/gra/270cm/270cm_eDM-03.jpg">
+        <img src="images/gra/270cm/270cm_eDM-04.jpg">
+        <img src="images/gra/270cm/270cm_eDM-05.jpg">
+        <img src="images/gra/270cm/270cm_eDM-06.jpg">
+        <img src="images/gra/270cm/270cm_eDM-07.jpg">
+        <img src="images/gra/270cm/270cm_eDM-08.jpg">
+        <img src="images/gra/270cm/270cm_eDM-09.jpg">
+        <img src="images/gra/270cm/270cm_eDM-10.jpg">
+        <img src="images/gra/270cm/270cm_eDM-11.jpg">
+        <img src="images/gra/270cm/270cm_eDM-14.jpg">
+        <img src="images/gra/270cm/270cm_eDM-16.jpg">
+        <img src="images/gra/270cm/270cm_eDM-17.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">產品廣告</div><!--name-->
+        <div class="work_text">eDM</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--270cm Round Cable-->
+<div id="small-dialog24" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/red_cpb502.png"><div class="dis"></div>
+        <img src="images/gra/red_cpb911.png">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">電商促銷廣告</div><!--name-->
+        <div class="work_text">Banner<br><br><span class="work_text2">在紅色iphone推出後，把相關的紅色產品製作成Banner</span></div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--(RED) X iW-->
+<div id="small-dialog25" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/MATCHA.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">電商促銷廣告</div><!--name-->
+        <div class="work_text">Banner</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--iW X MATCHA-->
+<div id="small-dialog26" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/car_banner.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">電商促銷廣告</div><!--name-->
+        <div class="work_text">Banner</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--電商促銷廣告-->
+<div id="small-dialog27" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/gra/Haggen.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">電商促銷廣告</div><!--name-->
+        <div class="work_text">Banner</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--iW X Haagen Dazs-->
+<div id="small-dialog28" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/artistry3.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">化妝品牌產品網站</div><!--name-->
+        <div class="work_text">視覺設計、RWD</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--ARTISTRY-->
+<div id="small-dialog29" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/artistry.png"><div class="dis"></div>
+        <img src="images/web/artistry2.png">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">化妝品牌測驗遊戲</div><!--name-->
+        <div class="work_text">視覺設計、RWD</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--ARTISTRY 測驗遊戲-->
+<div id="small-dialog30" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/watch.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">智慧手錶產品網站</div><!--name-->
+        <div class="work_text">視覺設計</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--WTDO Smart Watch-->
+<div id="small-dialog31" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/ats_index.jpg">
+    <div class="app">
+    	<div class="app_img mCustomScrollbar" data-scroll-scope>
+    		<img src="images/web/ats_ph.jpg">
+        </div><!--app_img-->
+    </div><!--app-->
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">空氣清淨機網站提案</div><!--name-->
+        <div class="work_text">視覺設計</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--安麗ats空氣清淨機-->
+<div id="small-dialog32" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/ats.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">空氣清淨機互動網站</div><!--name-->
+        <div class="work_text">網站規劃、視覺設計、RWD</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--安麗ats空氣清淨機互動網站-->
+<div id="small-dialog33" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/poe_index.jpg"><div class="dis"></div>
+        <img src="images/web/poe.jpg">
+      <div class="app">
+    	<div class="app_img mCustomScrollbar" data-scroll-scope>
+    		<img src="images/web/poe2.jpg"><img src="images/web/poe3.jpg">
+        </div><!--app_img-->
+    </div><!--app-->
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">公家機關網站提案</div><!--name-->
+        <div class="work_text">視覺設計</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--教育脈動-->
+<div id="small-dialog34" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/zurich.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">企業網站提案</div><!--name-->
+        <div class="work_text">視覺設計</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--蘇黎世-->
+<div id="small-dialog35" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="work_img mCustomScrollbar" data-scroll-scope>
+    	<img src="images/web/lawyer.jpg">
+    </div><!--img-->
+    <div class="work_con">
+    	<div class="work_name">律師事務所網站</div><!--name-->
+        <div class="work_text">網站規劃、視覺設計、RWD</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--律師神燈-->
+<div id="small-dialog36" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="app">
+    	<div class="app_img mCustomScrollbar" data-scroll-scope>
+    		<img src="images/web/nutrilite/nutrilite1.png">
+            <img src="images/web/nutrilite/nutrilite2.png">
+            <img src="images/web/nutrilite/nutrilite3.png">
+            <img src="images/web/nutrilite/nutrilite4.png">
+            <img src="images/web/nutrilite/nutrilite5.png">
+        </div><!--app_img-->
+    </div><!--app-->
+    <div class="work_con">
+    	<div class="work_name">營養品牌互動網站</div><!--name-->
+        <div class="work_text">網站規劃、視覺設計</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--紐崔萊-->
+<div id="small-dialog37" class="zoom-anim-dialog mfp-hide worklb">
+	<div class="app">
+    	<div class="app_img mCustomScrollbar" data-scroll-scope>
+    		<img src="images/web/espring/espring1.png">
+            <img src="images/web/espring/espring2.png">
+            <img src="images/web/espring/espring3.png">
+            <img src="images/web/espring/espring4.jpg">
+            <img src="images/web/espring/espring5.jpg">
+        </div><!--app_img-->
+    </div><!--app-->
+    <div class="work_con">
+    	<div class="work_name">淨水器互動網站</div><!--name-->
+        <div class="work_text">視覺設計</div><!--text-->
+    </div><!--con-->
+<div id="clear"></div>
+</div><!--安麗 益之源淨水器-->
+
+
+
+
+<!-- custom scrollbar plugin -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script><!--bar-->
+</body>
+</html>
